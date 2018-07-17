@@ -3324,7 +3324,7 @@ var EndpointStorage = /** @class */function (_super) {
     EndpointStorage.prototype.registerMicrosoftAuth = function (clientId, overrides) {
         var defaults = {
             clientId: clientId,
-            baseUrl: 'https://login.microsoftonline.com/common/oauth2/v2.0',
+            baseUrl: 'https://login.microsoftonline.com/organizations/oauth2/v2.0',
             authorizeUrl: '/authorize',
             responseType: 'token',
             scope: 'https://graph.microsoft.com/user.read',
